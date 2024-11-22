@@ -1,0 +1,46 @@
+.card-company-info {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: rgb(130, 219, 184,0.08);
+    background-clip: border-box;
+    border: 2px solid #82dbb8;
+    border-radius: .25rem;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out; /* Smooth transition for transform and box-shadow */
+}
+
+.card-company-info:hover {
+    cursor: pointer;
+    transform: scale(1.02); /* Slightly scale up the card on hover */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Box shadow on all sides */
+}
+
+.card-body-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.card-img-top{
+    width: 150px !important;
+}
+
+.btn-view-company{
+    background-color: #53ab8b !important;
+    border: 1px solid #53ab8b;
+}
+
+.btn-view-company:hover{
+    background-color: #157759 !important;
+    border: 1px solid #157759;
+}
+
+.text-align-justify {
+    text-align: justify;
+  }
